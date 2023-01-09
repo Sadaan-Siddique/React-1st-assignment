@@ -1,0 +1,226 @@
+*{
+    margin-top: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+/* NavBar*/
+nav{
+    background-image:linear-gradient(to right, rgba(0, 35, 51, 0.945) , rgb(0, 0, 65) ,black ,black);
+    height: 10vh;
+    padding: 1.7% 2% 0% 0% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+nav img{
+    border-color:rgb(0, 0, 0);
+    opacity: 0.2;
+    position: relative;
+    left: 2%;
+    bottom: 24%;
+    height: 8vh;
+    border-radius: 15px;
+    transition: all;
+    transition-duration: 0.9s;
+}
+nav img:hover{
+    opacity: 1;
+    cursor:pointer;
+    box-shadow: 0px 0px 7px black;
+
+}
+nav .para{
+    position: relative;
+    right: 10%;
+  font-size: 30px;
+  margin-bottom: 1.49%;
+  font-weight: 900;
+    
+}
+nav ul{
+    margin-right:24% ;
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right:21% ;
+}
+nav ul li a{
+    padding: 11px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.9s;
+}
+nav ul li a:hover{
+    box-shadow: 0px 0px 10px white;
+    color: white;
+}
+/* Header Edge */
+
+/* Main */
+/* Img */
+.img{
+    height: 90.99999vh;
+    padding-left: 10%;
+    padding-top: 10%;
+    background-image: linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(/public/images/State-Agency.jpg);
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+    animation: live-change 2s ease-in 0.1s infinite; 
+}
+.img h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+}
+.img p{
+    color: white;
+    margin-left: 3%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 40px;
+}
+.img p span{
+    display: block;
+}
+.img p span span{
+    font-size: 30px;
+    font-weight: 900;
+}
+.img button{
+    width: 15%;
+    height: 10%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    margin: 1% 0% 0% 12%;
+    transition-property: all;
+    transition-duration: 0.9s;
+    background: transparent;
+    border: 0.1px solid rgba(255, 255, 255, 0.063);
+    color: rgba(255, 255, 255, 0.638);
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.499);
+}
+.img button:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px white;   
+    color: white; 
+}
+
+/* After img */
+
+.after_img{
+    /* border:  1px solid red; */
+    /* background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)); */
+    /* padding-top: 2%; */
+    /* height: 100vh; */
+    /* margin-top: 5px; */
+}
+.after_img  h1{
+    font-weight: 799;
+    font-size: 60px;
+    margin-top: 10%;
+    text-align: center;
+}
+.in_after_img{
+     height: 100%;
+   /* margin-top: 1%;
+    padding: 3% 12% 3% 12%;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template5-rows: 40% 40%;
+    grid-gap: 20% 35%; */
+}
+.in_after_img div{
+    height: 40%;
+    padding: 10px;
+    margin-top: 13%;
+    border-radius: 8px; 
+    transition: all;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.267);
+    background:linear-gradient(to right,rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+    /* background-color: rgba(255, 207, 207, 0.39); */
+    /* box-shadow: 1px 1px 10px white; */
+    transition-duration: 0.8s;
+    font-weight: bold;
+    /* border: 1px solid black;  */
+}
+.in_after_img div:hover{
+    padding: 0px 0px 6px 0px;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.822);
+    background:linear-gradient(to right,rgba(0,0,0,0.18),rgba(0,0,0,0.2));
+    /* background-color: #292b2c; */
+    color: #000000ec ;
+}
+.in_after_img div h2{
+    font-size: 29px;
+    font-weight: 700;
+}
+.in_after_img div p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.in_after_img div img{
+    border-radius: 8px;
+    opacity: 0.85 ;
+    transition: all;
+    transition: 1s;
+}
+.in_after_img div img:hover{
+    opacity: 1;
+    /* background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)); */
+    border: none;
+    box-shadow: 0px 0px 10px black;
+}
+.in_after_img div button{
+    height: 35px;
+    width: 30%;
+    border-radius:5px ;
+    border: none;
+    color: #292b2c;
+    background:linear-gradient(to right,rgba(0,0,0,0.2),rgba(0,0,0,0.1));
+    box-shadow: 0px 0px 4px black;
+    font-weight: bold;
+    transition: all;
+    transition-duration: 1s;
+}
+.in_after_img div button:hover{
+    background-color: rgba(0, 0, 0, 0.329);
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+    border: none;
+    color: black;
+}
+
+/* Form */
+form button{
+    color: rgba(255, 255, 255, 0.781);
+    font-weight: bold;
+    background-color: rgb(46,46,46);
+    padding: 3px 16px 3px 16px;
+    border-radius: 5px;
+    border: none;
+    transition: all;
+    transition-duration:1s ;
+}
+form button:hover{
+    color: white ;
+    border: none;
+    box-shadow: 0px 0px 2px 2px black;
+    padding: 4px 16px 4px 16px;
+    font-weight: bolder;
+    background-color: #1d1e1f;
+}
+input{
+    border: none;
+}
